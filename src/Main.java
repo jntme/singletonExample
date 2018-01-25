@@ -8,7 +8,7 @@ public class Main {
         // not possible because constructor is private:
         // Singleton s = new Singleton();
 
-        Singleton s = Singleton.getSingleton();
+        Singleton s = Singleton.getInstance();
         System.out.println("First: " + s.getContent());
         s.setContent(42);
         System.out.println("Second: " + s.getContent());
