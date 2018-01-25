@@ -9,7 +9,7 @@ public class Singleton {
     // the attributes of your singleton class
     private int content = 1337;
 
-    public static Singleton getSingleton() {
+    public static Singleton getInstance() {
         if(singleton == null)
             singleton = new Singleton();
 
